@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.phone-container {
+    display: none;
+}
+
+.form-container {
+    width: 350px;
+}
+
+.form-box {
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.instagram-logo {
+    font-family: 'Billabong', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+button {
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fb-logo {
+    height: 16px;
+    margin-right: 10px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    color: #00376b;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.signup-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+}
+
+.signup-box a {
+    color: #3897f0;
+    font-weight: bold;
+}
+
+.get-app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.app-links img {
+    height: 40px;
+    margin: 0 5px;
+}
+
+@media (min-width: 1000px) {
+    .container {
+        justify-content: space-around;
+    }
+
+    .phone-container {
+        display: block;
+    }
+
+    .form-container {
+        margin-left: 50px;
+    }
+}
